@@ -334,7 +334,7 @@ footer {
 /* Écrans de moins de 700px */
 @media screen and (max-width: 700px) {
 
-    /* Menu principal vertical */
+    
     .main-nav {
         height: auto;
         align-items: flex-start;
@@ -345,17 +345,17 @@ footer {
         flex-direction: column;
     }
 
-    /* Cartes sur 2 colonnes */
+    
     .home-cards {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    /* Image du showcase réduite à 60% */
+    
     .showcase img {
         width: 60%;
     }
 
-    /* Section Big Data */
+   
     #bigData-intro  p {
         display: none;
     }
@@ -368,7 +368,7 @@ footer {
         margin-bottom: 20px;
     }
 
-    /* Section carbon / ruban */
+    
     .ruban {
         height: 500px;
         background-position: center;
@@ -378,7 +378,7 @@ footer {
         width: 85%;
     }
 
-    /* Liens du footer sur 2 colonnes */
+   
     .links-inner {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -388,23 +388,22 @@ footer {
 /* Écrans de moins de 500px */
 @media screen and (max-width: 500px) {
 
-    /* Cartes sur une colonne */
+   
     .home-cards {
         grid-template-columns: 1fr;
     }
 
-    /* Liens du footer sur une colonne */
+    
     .links-inner {
         grid-template-columns: 1fr;
     }
 
-    /* Listes du footer : texte de 25px */
     .links-inner ul {
         font-size: 25px;
         margin-bottom: 20px;
     }
 
-    /* Sous-footer : affichage vertical */
+    
     .sub-footer ul {
         flex-direction: column;
         align-items: flex-start;
@@ -415,7 +414,7 @@ footer {
         margin-bottom: 15px;
     }
 
-    /* Conteneur et listes alignés à gauche */
+    
     .footer-inner {
         flex-direction: column;
         align-items: flex-start;
